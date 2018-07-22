@@ -88,11 +88,6 @@ describe("woodPlanks", function () {
     expect(results).to.equal(20);
   });
 
-  it("should return 20 dollars", function () {
-    let results = woodPlanks(25);
-    expect(results).to.equal(20);
-  });
-
   it("should return 21 dollars", function () {
     let results = woodPlanks(25);
     expect(results).to.equal(21);
