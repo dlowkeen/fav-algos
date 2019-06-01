@@ -3,7 +3,7 @@
 // Input = [1, 3, 8, 23, 9, 14, -4]
 // Output = 54
 
-function sum(arr) {``
+function sum(arr) {
   let sum = 0;
   arr.forEach(x => sum += x);
   console.log('sum', sum);
