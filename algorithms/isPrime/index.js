@@ -27,8 +27,6 @@ function isPrime(num) {
   }
   return yesPrime;
 }
-
-printPrimes([4, 432, 17, 3, 79, 53, 69]);
   
 module.exports = printPrimes;
 
